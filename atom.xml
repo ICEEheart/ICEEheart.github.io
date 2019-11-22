@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ICEEheart的博客</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-11-21T07:40:04.459Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>ICEEheart</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客搭建</title>
+    <link href="http://yoursite.com/2019/11/22/bo-ke-da-jian/"/>
+    <id>http://yoursite.com/2019/11/22/bo-ke-da-jian/</id>
+    <published>2019-11-22T05:43:18.435Z</published>
+    <updated>2019-11-21T07:40:04.459Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;####博客搭建&lt;br&gt;    1.下载node.js  网址:nodejs.org&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;2.安装打开cmd查看node -v    
+               npm -v
+
+3.安装淘宝镜像源(管理员权限运行):npm install
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/11/22/hello-world/"/>
+    <id>http://yoursite.com/2019/11/22/hello-world/</id>
+    <published>2019-11-22T05:35:00.086Z</published>
+    <updated>2019-11-22T05:35:00.087Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
