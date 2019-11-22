@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>博客搭建</title>
+      <link href="/2019/11/22/bo-ke-da-jian/"/>
+      <url>/2019/11/22/bo-ke-da-jian/</url>
+      
+        <content type="html"><![CDATA[<p>####博客搭建<br>    1.下载node.js  网址:nodejs.org</p><pre><code>2.安装打开cmd查看node -v                   npm -v3.安装淘宝镜像源(管理员权限运行):npm install -g cnpm --registry=https:registry.npm.taobao.org4.安装成功后利用cnpm安装hexo博客框架cnpm install -g hexo-cli5.创建一个空文件夹(一定的是空的)然后cd 到该目录下输入hexo init指令即可。成功之后可看到该文件夹下多了很多文件。6.启动hexo  运行指令hexo s    s(start简写)7.打开浏览器输入http://localhost:4000 看到博客页面8.创建一篇文章可以用hexo n &quot;我的第一篇博客文章&quot;指令9.找到你创建文件夹下的\source\_posts  你会发现该文件10.打开进行编辑11.编辑好后输入指令hexo g进行提交，提交之后在执行第步就可看到你写的文章</code></pre><h4 id="博客部署到github上"><a href="#博客部署到github上" class="headerlink" title="博客部署到github上"></a>博客部署到github上</h4><pre><code>1.到自己的github上创建一个新的仓库 遵循命名规则github用户名.github.io  后点击create即可2.安装git插件到博客目录下  执行命令cnpm install --save hexo-deployer-git 3.设置_config.yml文件   找到#Deployment  在type: git                                    新添加repo:将刚才创建的仓库地址放此处即可                                    例如:repo: https://github.com/ICEEheart/ICEEheart.github.io.git                                    新添加branch: master保存退出4.将hexo部署到远端 执行命令:hexo d即可</code></pre><h4 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h4><pre><code>1.访问地址:https://github.com/litten/hexo-theme-yilia2.git clone 到theme/yilia目录下3.更改_config.yml文件中theme:yilia4.远程提交:hexo d</code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2019/11/22/hello-world/"/>
+      <url>/2019/11/22/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
